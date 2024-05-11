@@ -80,7 +80,7 @@
   opacity: 0.6;
 }
 
-.theme-menu__button:focus {
+:focus {
   outline: none;
 }
 
@@ -242,10 +242,6 @@
   transition: outline 0.3s ease;
 }
 
-.card__icon-button:focus {
-  outline: none;
-}
-
 .card__icon-button:focus-visible {
   outline: 2px solid var(--accent-color);
 }
@@ -253,10 +249,6 @@
 .card__like-button {
   inline-size: 130px;
   padding: 7px;
-}
-
-.card__like-button:focus {
-  outline: none;
 }
 
 .button {
@@ -267,7 +259,6 @@
 }
 
 .button:focus-visible {
-  border: 2px solid var(--accent-color);
   box-shadow: 2px 2px 0 var(--accent-color);
 }
 
@@ -296,7 +287,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 90%;
-  transition: color 1s ease;
   mix-blend-mode: difference;
 }
 
@@ -317,7 +307,6 @@
   z-index: 1;
   inline-size: 21px;
   block-size: 21px;
-  transition: color 1s ease;
   mix-blend-mode: difference;
 }
 
@@ -364,6 +353,7 @@
 .modal__button {
   inline-size: 293px;
   padding: 9px;
+  text-transform: uppercase;
 }
 
 @media (width <= 375px) {
